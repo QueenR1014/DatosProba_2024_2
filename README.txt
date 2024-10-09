@@ -1,4 +1,4 @@
-DataBases for Probability and Statistics 1 first semester
+DataBases for Probability and Statistics 1 second semester
 Universidad del Rosario
 Bogotá Colombia:
 
