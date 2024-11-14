@@ -1,0 +1,117 @@
+# Descripción de Variables y Significado de Valores Específicos
+
+1. Genero (P_SEXO)
+   - 1: Masculino
+   - 2: Femenino
+
+2. Edad (P_EDADR)
+   - Valor numérico que representa la edad en años.
+
+3. Estado_Civil (P_EST_CIVIL)
+   - 1: Soltero/a
+   - 2: Casado/a
+   - 3: Unión libre
+   - 4: Separado/a
+   - 5: Divorciado/a
+   - 6: Viudo/a
+
+4. Nivel_Educativo (P_NIVEL_ANOSR)
+   - 0: Sin educación formal
+   - 1-20: Número de años de educación completados
+
+5. Situacion_Laboral (P_TRABAJO)
+   - 1: Empleado
+   - 2: Desempleado
+   - 3: Inactivo (no está buscando trabajo)
+   - 4: Estudiante
+   - 5: Jubilado
+
+6. Grupo_Etnico (PA1_GRP_ETNIC)
+   - 1: Indígena
+   - 2: Afrodescendiente
+   - 3: Raizal
+   - 4: Palenquero
+   - 5: Rom (Gitano)
+   - 6: Otro
+   - 99: No aplica
+
+7. Numero_Personas_Hogar (HA_TOT_PER)
+   - Valor numérico que indica el número total de personas en el hogar.
+
+8. Acceso_Agua_Cocina (H_AGUA_COCIN)
+   - 1: Sí, tiene acceso a agua potable en la cocina
+   - 2: No, no tiene acceso a agua potable en la cocina
+   - 99: No aplica
+
+9. Material_Pared (V_MAT_PARED)
+   - 1: Ladrillo, bloque o piedra
+   - 2: Bahareque o tapia pisada
+   - 3: Madera
+   - 4: Material prefabricado
+   - 5: Otro
+
+10. Material_Piso (V_MAT_PISO)
+    - 1: Cemento o baldosa
+    - 2: Tierra
+    - 3: Madera
+    - 4: Otro
+
+11. Acceso_Electricidad (VA_EE)
+    - 1: Sí, tiene acceso a electricidad
+    - 2: No, no tiene acceso a electricidad
+
+12. Acceso_Acueducto (VB_ACU)
+    - 1: Sí, tiene acceso a acueducto
+    - 2: No, no tiene acceso a acueducto
+
+13. Acceso_Alcantarillado (VC_ALC)
+    - 1: Sí, tiene acceso a alcantarillado
+    - 2: No, no tiene acceso a alcantarillado
+
+14. Acceso_Gas (VD_GAS)
+    - 1: Sí, tiene acceso a gas natural
+    - 2: No, no tiene acceso a gas natural
+
+15. Acceso_Recoleccion_Basura (VE_RECBAS)
+    - 1: Sí, tiene servicio de recolección de basura
+    - 2: No, no tiene servicio de recolección de basura
+
+16. Acceso_Internet (VF_INTERNET)
+    - 1: Sí, tiene acceso a internet
+    - 2: No, no tiene acceso a internet
+
+17. Total_Hijos_Vivos_Primer_Hijo (PA1_THNV)
+    - Valor numérico que indica el total de hijos nacidos vivos del primer hijo.
+
+18. Ubicacion_Rural_Urbana (UA_CLASE)
+    - 1: Urbano
+    - 2: Rural
+
+19. Tasa_Mortalidad
+    - Número de fallecimientos en relación a la población total, multiplicado por 1000 y redondeado a dos decimales.
+
+20. Tasa_Natalidad
+    - Número de nacimientos en relación a la población total, multiplicado por 1000 y redondeado a dos decimales.
+
+21. Tasa_Fecundidad
+    - Número de nacimientos en mujeres de 15-49 años, multiplicado por 1000 y redondeado a dos decimales.
+
+22. Propietario_Vivienda (PRO_VI)
+    - 1: Es propietario de la vivienda
+    - 0: No es propietario de la vivienda
+
+23. Lugar_de_Nacimiento (PA_LUG_NAC)
+    - Código numérico que representa el lugar de nacimiento (por departamento).
+
+24. Residencia_Hace_5_Años (PA_VIVIA_5ANOS)
+    - Código numérico que indica el lugar de residencia hace 5 años.
+
+25. Residencia_Hace_1_Año (PA_VIVIA_1ANO)
+    - Código numérico que indica el lugar de residencia hace 1 año.
+
+26. Alfabetizacion (P_ALFABETA)
+    - 1: Sabe leer y escribir
+    - 2: No sabe leer y escribir
+
+27. Personas_que_trabajan_en_el_hogar
+    - Valor numérico que indica la cantidad de personas en el hogar que están trabajando, incluyendo un ajuste aleatorio entre 0 y 2.
