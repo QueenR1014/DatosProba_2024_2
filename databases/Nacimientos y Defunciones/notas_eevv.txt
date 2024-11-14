@@ -1,0 +1,29 @@
+NOTAS IMPORTANTES SOBRE EEVV:
+Cada línea en cada uno de los 24 csv para los años de 1998 a 2022 representa un nacimiento diferente. En cada una de ellas hay 18 variables:
+
+"COD_DPTO": Departamento del Nacimiento
+"COD_MUNIC": Municipio del Nacimiento
+"AREANAC": Área del Nacimiento
+"SIT_PARTO": Sitio del Parto
+"PESO_NAC": Peso del nacido vivo, al nacer
+"TALLA_NAC": Talla del nacido vivo, al nacer
+"T_GES": Tiempo de gestación del nacido vivo
+"NUMCONSUL": Número de consultas prenatales que tuvo la madre del nacido vivo
+"TIPO_PARTO": Tipo de parto de este nacimiento
+"MUL_PARTO": Multiplicidad del embarazo
+"APGAR1": APGAR del nacido vivo al minuto
+"APGAR2": APGAR del nacido vivo a los cinco minutos
+"EDAD_MADRE": Edad de la madre a la fecha del parto
+"NIV_EDUM": Nivel educativo de la madre
+"EST_CIVM": Estado civil de la madre
+"N_HIJOSV": Número de hijos nacidos vivos que ha tenido la madre, incluido el presente
+"EDAD_PADRE": Edad del padre en años cumplidos a la fecha del nacimiento de este hijo
+"NIV_EDUP": Nivel educativo del padre
+
+Los valores en cada una de las filas deben ser interpretados como números enteros.
+Los diccionarios de todas las variables se encuentran disponibles en el segundo vínculo:
+https://microdatos.dane.gov.co/index.php/catalog/366/data-dictionary/F1?file_name=Nacimientos_1998
+
+Pese a que este es el diccionario de 1998, es consistente con todos y cada uno de los csv desde entonces.
+
+Se debe tener mucho cuidado a la hora de interpretar los datos, ya que en algunos archivos y sobre todo en los más antiguos, se pueden presentar errores de consistencia. Por ejemplo, en varias columnas cuando la respuesta es desconocida se coloca 99. No obstante, varias veces aparece 999. Por ende, se debe ser muy cuidadoso a la hora de procesar los datos.
